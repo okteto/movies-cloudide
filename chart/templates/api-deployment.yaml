@@ -55,11 +55,6 @@ spec:
             - name: http
               containerPort: 8080
               protocol: TCP
-          livenessProbe:
-            httpGet:
-              path: /api/healthz
-              port: 8080
-          readinessProbe:
-            httpGet:
-              path: /api/healthz
-              port: 8080
+            - name: coder
+              containerPort: 8081
+              protocol: TCP
