@@ -1,6 +1,6 @@
 # Movies Sample app
 
-This example shows how to leverage to develop a Node.js + React Sample App directly in Kubernetes. The Node + React Sample App is deployed using a [Helm Chart](https://github.com/okteto/movies/tree/master/chart). It creates the following components:
+This example shows how to develop a Node.js + React Sample App on Okteto Cloud. The Node + React Sample App is deployed using a [Helm Chart](https://github.com/okteto/movies/tree/master/chart). It creates the following components:
 
 - A *React* based front-end, using [webpack](https://webpack.js.org) as bundler and *hot-reload server* for development.
 - A very simple Node.js API using [Express](https://expressjs.com).
@@ -14,12 +14,10 @@ Click on the next button to deploy the Movies App development environment:
 
 [![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/pchico83/movies)
 
-The [Movies App](https://github.com/okteto/movies) is a simple web app composed of: a React frontend, a Node.js api, and a mongodb database.
-
 When you deploy the Movies App Git repository, Okteto Cloud will run the deploy pipeline defined by the `okteto-pipeline.yml` of the repository.
 In this case, the pipeline deploys the chart of the Movies App with Helm.
 
-At this point, your application is being deployed. It will be ready to go once its components reach the `Running` state.
+Your application will be ready to go once its components reach the `Running` state.
 
 ![Deploy](images/deploy.png)
 
@@ -39,7 +37,7 @@ Open a terminal in the Coder.com IDE:
 
 ![NewTerminal](images/new-terminal.png)
 
-And exeute `yarn start` to run the application:
+And execute `yarn start` to run the application:
 
 ![Yarn](images/yarn.png)
 
@@ -68,7 +66,7 @@ Save your changes. Take a look at the Coder.com shell and notice how the changes
 Server running on port 8080.
 ```
 
-Go back to the browser, and reload the Movies App. Your code fixes were instantly applied in arealistic development environment!
+Go back to the browser, and reload the Movies App. Your code fixes were instantly applied in a realistic development environment!
 
 ## Next steps
 
