@@ -12,7 +12,7 @@ This example shows how to develop a Node.js + React Sample App on Okteto Cloud. 
 
 Click on the next button to deploy the Movies App development environment:
 
-[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/pchico83/movies)
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/okteto/movies-cloudide)
 
 When you deploy the Movies App Git repository, Okteto Cloud will run the deploy pipeline defined by the `okteto-pipeline.yml` of the repository.
 In this case, the pipeline deploys the chart of the Movies App with Helm.
